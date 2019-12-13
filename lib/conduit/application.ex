@@ -7,8 +7,7 @@ defmodule Conduit.Application do
 
   def start(_type, _args) do
     children = [
-      # Starts a worker by calling: Conduit.Worker.start_link(arg)
-      # {Conduit.Worker, arg}
+      Conduit.App
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
