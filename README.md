@@ -1,4 +1,4 @@
-## Steps to reproduce the error:
+## Steps to reproduce the error(Fix can be found [here](https://github.com/commanded/eventstore/pull/186)):
 
 ### Create 3 Nodes
 
