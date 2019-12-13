@@ -10,3 +10,19 @@ config :conduit, Conduit.EventStore,
   pool_size: 10
 
 config :conduit, event_stores: [Conduit.EventStore]
+
+config :conduit, Conduit.App,
+  pubsub: [
+    phoenix_pubsub: [
+      adapter: Phoenix.PubSub.PG2,
+      pool_size: 1
+    ]
+  ]
+
+config :conduit, Conduit.Application,
+  pubsub: [
+    phoenix_pubsub: [
+      adapter: Phoenix.PubSub.PG2,
+      pool_size: 1
+    ]
+  ]

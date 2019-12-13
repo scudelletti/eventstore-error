@@ -25,7 +25,9 @@ defmodule Conduit.MixProject do
     [
       {:jason, "~> 1.1"},
       {:commanded, "~> 1.0.0"},
-      {:commanded_eventstore_adapter, "~> 1.0.0"}
+      {:commanded_eventstore_adapter, "~> 1.0.0"},
+      {:commanded_swarm_registry, "~> 1.0.0"},
+      {:phoenix_pubsub, "~> 1.0"}
     ]
   end
 end
